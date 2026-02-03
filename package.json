@@ -1,0 +1,12 @@
+{
+  "name": "valentines-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "convert": "node scripts/convert-heic.mjs",
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "heic-convert": "^2.1.0"
+  }
+}

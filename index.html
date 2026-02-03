@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will you be my Valentine?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="hero" role="img" aria-label="Valentine background"></div>
+
+  <canvas id="fireworks" class="canvas-layer" aria-hidden="true"></canvas>
+  <div id="petals" class="petals-layer" aria-hidden="true"></div>
+
+  <main class="content">
+    <section id="prompt-section" class="prompt-section">
+      <p class="top-line">To my favorite egg</p>
+      <h1 class="main-ask">Will you be my Valentine?</h1>
+      <div class="buttons">
+        <button type="button" id="btn-yes" class="btn btn-yes">Yes 💖</button>
+        <button type="button" id="btn-no" class="btn btn-no">No</button>
+      </div>
+      <p class="signature">-- Señor Guapo</p>
+    </section>
+
+    <section id="yes-section" class="yes-section hidden">
+      <p class="yes-line yes-highlight">Best decision ever 😌💖</p>
+      <p class="yes-line">You make my world better.</p>
+      <p class="yes-line">Thank you for being you.</p>
+      <p class="yes-line">Get ready at 8pm</p>
+      <p class="yes-line yes-dress">Dress code: Slayyy</p>
+    </section>
+  </main>
+
+  <canvas id="confetti" class="confetti-layer hidden" aria-hidden="true"></canvas>
+
+  <script src="main.js"></script>
+</body>
+</html>
